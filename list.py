@@ -4,14 +4,14 @@
 fruits = ["apple", "peach", "melon", "grapes"]
 
 hetero_list = ["string", 1, 3.4, True, fruits]
-# print(hetero_list)
-# print(fruits[0])
-# print(fruits[-1])
-# print(fruits[-2])
-# print(hetero_list[-1])
-# print(hetero_list[-1][-3])
-#
-# print("hello world"[2])
+print(hetero_list)
+print(fruits[0])
+print(fruits[-1])
+print(fruits[-2])
+print(hetero_list[-1])
+print(hetero_list[-1][-3])
+
+print("hello world"[2])
 
 
 # .append: 新しいオブジェクトを追加する
