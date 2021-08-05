@@ -6,7 +6,8 @@ game_text = """プレイするゲームを選択してください。
 2: ブラックジャック
 3: ポーカー
 """
-game_dict = {'1': "ルーレット", '2': "ブラックジャック", '3': "ポーカー"}
+game_dict = {'a': "ルーレット", 'b': "ブラックジャック", 'c': "ポーカー"}
+# game_dict = {'a': "バカラ", 'b': "ブラックジャック", 'c': "ポーカー", 'd': 'スロット'}
 
 if age >= casino_age:
     print("どうぞカジノにお入りください。")
@@ -19,6 +20,6 @@ if age >= casino_age:
             print(f"あなたは{game_dict[game]}を選びました。")
             break
         else:
-            print("1~3を選択してください。")
+            print("a~cを選択してください。")
 else:
-    print("{}歳未満の方はカジノに入れません。".format(casino_age))
+    print(f"{casino_age}歳未満の方はカジノに入れません。")
